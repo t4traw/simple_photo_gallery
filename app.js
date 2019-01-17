@@ -2,7 +2,7 @@ function sleep(milsec) {
   return new Promise(resolve => setTimeout(resolve, milsec));
 }
 
-async function getImages(files) {
+async function generateGallery(files) {
   let file_counter = files.length
   let file_name = new Array()
   let file_path = new Array()
