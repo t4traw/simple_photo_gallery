@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body #app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body #app .slides {
+  background-size: cover;
+  background-position: center center;
+  width: 33%;
+  height: 50vh;
+  position: relative;
+}
+
+body #app .slides .description {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
